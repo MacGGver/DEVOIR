@@ -1,0 +1,269 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.menu{
+	background-color: #3d5afe;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+}
+.left{
+	float: left;
+}
+.menu .left{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 20px auto;
+}
+.logo{
+	margin: 0;padding: 0;
+	color: white;
+	font-weight: 900px;
+	font-size: 35px;
+	letter-spacing: 1px;
+	padding-left: 15px;
+}
+.right{
+	float: right;
+	margin-top: -50px;
+	font-size: 22px;
+}
+
+.link{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 0;margin: 0 15px;
+
+}
+.link:hover{
+color: black;
+transition: 0.9s all;
+}
+
+ /*fin du header*/
+ a{
+text-decoration: none;
+}
+.title{
+	color: #ff3d00;
+
+}
+
+ .acceuil{
+ 	
+ 	height: 820px;
+ 	
+	background: url('C:/Users/HP/Downloads/WhatsApp Image 2021-02-19 at 09.10.59.jpeg');
+	display: flex;
+
+ } 
+ .p1{
+ 	color: white;
+ 	text-align: center;
+ }
+
+ .acceuil .acc{
+	color: white;
+	margin: auto 120px;
+}
+.acceuil .ac .tex1{
+	font-size: 40px;
+	font-weight: 600px;
+}
+.acceuil .ac .tex2{
+	color: #ff3d00;
+	font-size: 40px;
+	font-weight: bolder;
+
+}
+.acceuil .ac .tex3{
+	font-size: 40px;
+	font-weight: bolder;
+} 
+
+.tex3 span{
+color: #ff3d00;
+
+}
+
+.acceuil .ac .button{
+	display: inline-block;
+	font-size: 40px;
+	background-color: #ff3d00;
+	color: white;
+	border-radius: 20px;
+	border:2px solid #ff3d00;
+	padding: 10px 40px;
+	margin-top: 200px;
+}
+.acceuil .ac .button:hover{
+	background-color: #3d5afe;
+}
+/* APROPOS*/
+
+.propos{
+	
+}
+.apropos{
+	padding-right: 100px;
+}
+
+ .slider{
+    width: 620px;
+    overflow: hidden;
+    float: left;
+    margin-right: 100px;
+    margin-left: 20px;
+    
+}
+			.slides{
+				
+    width: calc(620px * 8);
+    animation: glisse 10s infinite;
+   
+    
+}
+.slide{
+  float: left;
+}
+.slide a{
+    text-decoration: none;
+    color: black;
+}
+.slide img:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+@keyframes glisse {
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+     40%{
+        transform: translateX(-620px);
+    }
+    60%{
+        transform: translateX(-620px);
+    }
+     80%{
+        transform: translateX(-1240px);}}       
+
+ .lire .p2{
+	font-size: 20px;
+	padding: 10px; 
+	text-align: justify;
+	
+
+
+}
+.lire{
+	margin-right: 20px;
+	
+}
+.button2{
+	display: inline-block;
+	font-size: 40px;
+	background-color: aqua;
+	color: black;
+	border-radius: 20px;
+	border:2px solid crimson;
+	padding: 10px 40px;
+}
+ .button2:hover{
+	background:#3d5afe;
+	color: white;
+	  }
+
+
+
+		.div{
+    margin-left: 270px;
+}
+.kais{
+    width: 290px;
+    background-color: #3d5afe;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+}
+.kais img{
+    margin-top: 20px;
+    border-radius: 50%;
+    border:5px solid aqua;
+
+   
+}
+.kais p{
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.contac{
+    display: inline-block;
+    width: 700px;
+    float: left;
+    margin-left: 20px;
+}
+.contac p{
+    text-align: justify;
+    font-size: 18px;
+}
+.form{
+    display: inline-block;
+    margin-left: 100px;
+}
+.form input{
+    margin-bottom: 5px;
+    
+}
+button{
+    background-color: crimson;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+}
+button:hover{
+	background-color: #3d5afe;
+    color: white;
+}
+
+footer{
+	background-color: black;
+	padding: 25px;
+	height: 100px;
+	margin-top: 40px;
+	color: white;
+	text-align: center;
+	
+}
+ span i{
+	color:  #ff3d00;
+}
+.algerian{
+	float: left;
+	margin-top: -10px;
+}
+.foot{
+	font-size: 20px;
+	margin-right: 150px;
+	
+}
+.fot{
+	font-size: 25px;
+	float: right;
+	margin-top: -48Px;
+}
+.fot i{
+	color: white;
+	padding: 10px;
+}
